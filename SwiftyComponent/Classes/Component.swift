@@ -34,6 +34,16 @@ open class Component: UIView, Componentable {
     // is loaded
     public private(set) var isLoaded: Bool = false
     
+//    open override var backgroundColor: UIColor? {
+//        set {
+//            _contentView.backgroundColor = newValue
+//        }
+//
+//        get {
+//            _contentView.backgroundColor
+//        }
+//    }
+    
     // MARK: - Initialize
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
